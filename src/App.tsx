@@ -21,7 +21,7 @@ const App = () => (
         <TooltipProvider>
           <Toaster />
           <Sonner />
-          <BrowserRouter>
+          <BrowserRouter basename="/EcoLedger-SIH2025">
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/ngo-dashboard" element={<NGODashboard />} />
